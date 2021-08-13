@@ -28,7 +28,7 @@ const PokemonView = () => {
       .then((resultPokemon) => {
         pokemonSelectHandler(resultPokemon);
       });
-  }, [name]);
+  }, [name, pokemonSelectHandler]);
  
   return selectedPokemon ? (
     <div className="PokemonView">
