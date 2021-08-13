@@ -1,0 +1,39 @@
+.PokemonList {
+  display: flex;
+	flex-direction: column;
+	flex-wrap: center;
+	justify-content: center;
+	align-items: center;
+  width: 100%;
+
+    
+  }
+  
+  .PokemonList li {
+    margin-bottom: 10px;
+  }
+  
+  .PokemonList li a {
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #4b424217;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 200ms;
+  }
+  
+  .PokemonList__label {
+    font-size: 10px;
+    padding: 3px 8px;
+    background-color: #000000;
+    color: #000000;
+    border-radius: 4px;
+  }
+  
+  .PokemonList li a:hover {
+    background-color: #000000;
+    color: #000000;
+  }
+  

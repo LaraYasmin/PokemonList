@@ -1,0 +1,124 @@
+.PokemonView {
+  display: flex;
+	flex-direction: column;
+	flex-wrap: center;
+	justify-content: center;
+	align-items: center;
+  width: 100%;
+
+  }
+  .PokemonView h1 {
+    font-weight: bold;
+    font-size: 33px;
+    font-style: bold;
+  }
+
+  .PokemonView h2 {
+    margin-top: 180px;
+    font-weight: 300;
+    font-size: 22px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #000000;
+    border: 2px solid #000000;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 200ms;
+    
+  }
+
+  .PokemonView h3 {
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 22px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #000000;
+    border: 2px solid #000000;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 200ms;
+  }
+
+  .PokemonView h4 {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 22px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #000000;
+    border: 2px solid #000000;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 200ms;
+  }
+
+  .PokemonView span {
+    font-weight: 300;
+    font-size: 24px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #ff0000;
+    border: 2px solid #ff0000;
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 200ms;
+
+  }
+
+  .circle {
+    width: 140px;
+    height: 140px;
+    background: red; 
+    -moz-border-radius: 70px; 
+    -webkit-border-radius: 70px; 
+    border-radius: 70px;
+  }
+  
+  .PokemonView img {
+    width: 300px;
+  }
+  
+  .PokemonView__abilities {
+    list-style: none;
+    margin-top: -25px;
+    padding: 0;
+  }
+  
+  .PokemonView__abilities li {
+    font-weight: 300;
+    font-size: 24px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #ff0000;
+    border: 2px solid #ff0000;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 200ms;
+  }
+
+  .PokemonView__EvolutionChain {
+    list-style: none;
+    padding: 0;
+  }
+
+  .PokemonView__EvolutionChain li {
+    font-weight: 300;
+    font-size: 24px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #ff0000;
+    border: 2px solid #ff0000;
+    display: flex;
+    margin-top: -10px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 200ms;
+  }
+  
