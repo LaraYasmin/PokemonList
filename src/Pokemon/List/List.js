@@ -21,7 +21,7 @@ const PokemonList = () => {
       .then((json) => {
         pokemonListHandler(json.results);
       });
-  }, []);
+  }, [pokemonListHandler]);
 
   return (
     <>
