@@ -6,3 +6,7 @@
 ## O projeto:
 
 - O Pokemon_List é funcional por que nele posso acessar facilmente dados sobre os primeiros 151 pokemons, desde seu nome, imagem, tipo e até evolução. É por meio da listagem (box de pesquisa) que posso buscar sobre cada um desses pokemons. 
+
+## Link do projeto online: 
+
+https://quizzical-swartz-de2c12.netlify.app/
